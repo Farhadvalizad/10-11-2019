@@ -1,0 +1,113 @@
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+#overlay{
+    background: linear-gradient(to bottom,rgba(0,0,0,0.3),rgba(0,0,0,0.3)  ), url(https://mobirise.com/extensions/educationm4/assets/images/background1.jpg);
+    padding: 200px 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    line-height: 1.2;
+}
+.knowledge{
+    font-size: 900;
+    font-weight: 500;
+    color: #fff;
+    box-sizing: border-box;
+}
+.knowledge button{
+    padding: 15px 20px;
+    border-radius: 6px;
+}
+.knowledge p{
+    padding: 20px 0 15px 0;
+    font-size: 20px;
+     
+}
+.knowledge h1{
+    font-size: 120px;
+    font-weight: 900;
+}
+#word{
+    padding: 111px 0 88px 0;
+}
+#word hr{
+    width: 71px;
+    height: 4px;
+    background-color: black;
+}
+#word p{
+    padding: 25px 0 20px 0; 
+    color: #656565;
+}
+.zone{
+    background: #0a1c44;
+    color: white;
+}
+.kard{
+    padding: 54px 0 54px 0;
+}
+.kard hr{
+    width: 80px;
+    height: 3px;
+    background-color: white;
+}
+.kard p{
+    color: #ffffff;
+}
+.back{
+    background: white;
+    color: black;
+}
+.text-holder{
+    width: 100%;
+}
+.text-holder i{
+    padding: 0 5px;
+}
+.zone button{
+    margin: 25px 0;
+}
+#respons-nav{
+    display: none;
+}
+@media (max-width:1200px){
+    #respons-nav{
+        display: none;
+    }
+}
+@media (max-width:992px){
+    #respons-nav{
+        display: none;
+    }
+}
+@media (max-width:768px){
+    #respons-nav{
+        display: block;
+    }
+    #Navbar{
+        display: none;
+    }
+    .knowledge h1{
+        font-size: 35px;
+        font-weight: 900;
+    }
+}
+@media (max-width:576px){
+    #respons-nav{
+        display: block;
+    }
+    #Navbar{
+        display: none;
+    }
+    .knowledge h1{
+        font-size: 25px;
+        font-weight: 900;
+    }
+}
